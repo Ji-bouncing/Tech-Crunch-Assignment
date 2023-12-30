@@ -1,0 +1,57 @@
+*{
+  box-sizing:border-box;
+  margin:0;
+  padding:0;
+  list-style-type:none;
+}
+
+header,main,aside{
+  float:left;
+  width:8%;
+  margin-right:2%;
+  
+}
+main{
+  width:48%;
+}
+aside{
+  width:38%;
+}
+img{
+  width:100%;
+}
+nav > ul li a{
+  text-decoration:none;
+  color:black;
+  padding:20% 0;
+  display:block;
+}
+aside > ul li span{
+  display:block;
+  padding:5% 0;
+}
+header > img + a{
+  display:block;
+  padding:8% 0;
+}
+main p{
+  padding:5% 0;
+}
+aside > ul li{
+  padding:8% 0;
+}
+section{
+  float:left;
+  width:26%;
+  margin:10% 2% 0 0;
+}
+section > img{
+  width:100%;
+}
+.firstSet{
+  margin-left:10%;
+}
+.firstSet span{
+  padding:5% 0;
+  display:block;
+}
